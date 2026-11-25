@@ -5,7 +5,11 @@ I am trying to solve different biological problems using Python to deepen my und
 My plan is to write down what I've learned from each problem, and sometimes the problems themselves.
 
 
-*Problem 1) Principal Component Analysis (PCA)*
+
+
+
+ 🎯 ***Problem 1) Principal Component Analysis (PCA)***
+
 PCA is a widely used method to reduce the size of the dataset while preserving the variance. PCA does not simply reduce the size of a dataset. It reduces its dimensionality by constructing new axes that capture the greatest possible variance.
 
 -I've performed a CPM normalization followed by a log transform.
