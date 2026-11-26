@@ -21,3 +21,21 @@ PCA is a widely used method to reduce the size of the dataset while preserving t
 - PCA is sensitive to outliers and doesn't necessarily preserve importana biological information.
 
 ---
+
+
+## 🎯 Problem 2) Measuring The Delay Between Biological Signals (Cross-correlation)
+
+If two biological signals are similar, is this similarty arise simultaneously or is there a certain delay between them ? This is the main question. It is used in many areas including measuring:
+
+- The time relation between two signal paths.
+- The delay between gene expression and protein sytnhesis.
+- The gap between cell movement and Ca signals.
+- To evaluate how oscillations in developmental tissues are delayed across different locations.
+
+Self note: Measuring an affect at t=t0 may not indicate a strong similarity;however, if we delay one signal for a certain time they may demonstrate strong similartiy.
+
+There are some limitations:
+- It doesn't always indicate a casuality between signals.
+- Some applications require detrending or baseline correction if the two signal increases with time.
+- Oscillation may cause more than one correlation peaks.
+- In big lags they may have small matches, calculating the correlation with few points may not be reliable.
